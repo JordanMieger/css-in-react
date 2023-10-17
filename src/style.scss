@@ -1,0 +1,46 @@
+$fontcolor1:blue;
+$fontcolor2:white;
+
+
+
+
+body {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+    display: flex;
+    border: solid rgba(128, 128, 128, 0.342) 1px;
+    background-color: black;
+    img {
+        padding: 1rem;
+        height: 350px;
+        width: auto;
+    }
+
+    h1 {
+        color:$fontcolor1;
+        font-weight: bold;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        color:$fontcolor2;
+        font-weight: lighter;
+    }
+    a {
+        color: $fontcolor2;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
+
+.right-card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
